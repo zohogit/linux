@@ -1,0 +1,2 @@
+# linux
+mindenféle apróságok
