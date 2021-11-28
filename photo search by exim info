@@ -1,0 +1,2 @@
+for i in `ls`;do exif $i 2>/dev/null|egrep "Date.*2012|Date.*2011" ;if [ "$?" == "0" ] ; then echo $i >>../2012.list;fi;done
+for i in `cat ../2012.lista`; do pinta $i;done
