@@ -1,0 +1,9 @@
+# ----------------- logging subroutine ----------------
+log2 () {
+if [ "$DEBUG" ] ; then
+echo $@
+fi
+echo "__"$@"<BR>" >> logfile
+}
+
+# ----------------- end of logging subroutine ----------------
