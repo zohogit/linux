@@ -7,3 +7,7 @@ echo "__"$@"<BR>" >> logfile
 }
 
 # ----------------- end of logging subroutine ----------------
+
+if [ "$1" != "auto" ] ; then
+        DEBUG=1
+fi
